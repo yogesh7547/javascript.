@@ -30,5 +30,36 @@ let booleanIsLoggedIn= Boolean(isLoggedIn)
 let someNumber= 33;
 let stringNumber= String(someNumber);
 
-console.log(stringNumber);
-console.log(typeof stringNumber);
+// console.log(stringNumber);
+// console.log(typeof stringNumber);
+
+
+//*****************operations*******************
+
+
+// console.log(2**3);  //  two res to power 3
+
+let str1="hi";
+let str2=" paaji";
+
+let str3= str1+str2;
+
+//console.log(str3);
+
+// console.log("1"+2);
+// console.log(1+"2");
+// console.log("1"+2+2);//if string is observed first from the left then  js converts every next number into string 
+// console.log(2+2+"1");//otherwise it performs the operation forst and then adds string to it 
+
+let num=10;
+console.log(num);
+
+
+let num2= num++;
+console.log(num2);
+//If used postfix, with operator after operand (for example, x++), the increment operator increments and returns the value before incrementing.
+
+
+let num3=++num;
+console.log(num3);
+//If used prefix, with operator before operand (for example, ++x), the increment operator increments and returns the value after incrementing.
