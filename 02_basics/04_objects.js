@@ -61,15 +61,46 @@ const users=[
     
 ]
 
-console.log(users[0].id)
+// console.log(users[0].id)
 
 
 
 
-console.log(tinderUser)
-console.log(Object.keys(tinderUser))
-console.log(Object.values(tinderUser))
-console.log(Object.entries(tinderUser))
+// console.log(tinderUser)
+// console.log(Object.keys(tinderUser))
+// console.log(Object.values(tinderUser))
+// console.log(Object.entries(tinderUser))
 // returns the keys and values in the form of an array
 
-console.log(tinderUser.hasOwnProperty('isLoggedIn'))
+// console.log(tinderUser.hasOwnProperty('isLoggedIn'))
+
+
+
+const course={
+    courseName:"js in hindi",
+    pricing:999,
+    courseInstructor:"hitesh"
+}
+
+console.log(course.courseInstructor)
+
+//one more syntax to access objects 
+
+const {courseInstructor: Iname}=course
+// console.log(courseInstructor)
+console.log(Iname)
+
+
+//JSON
+
+// {
+//     "name":"hitesh",
+//     "courseName":"js in hindi",
+//     "price":"free"
+// }
+
+[
+    {},
+    {},
+    {}
+]
