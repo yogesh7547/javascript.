@@ -1,7 +1,8 @@
 innerHTML: returns everything inside the tag 'DOM learning on chai aur code <span style="display: none;">and test</span>'
+
 innerText:return whatever is visible on the webpage 'DOM learning on chai aur code'
+
 textContent:returns every piece of text content inside the tag whether it is visible or not on the webpage
 
 
-nodeList , HTMLcollection , arrays are not the same they have diffrent values is their prototype and each cant be accessed everytime in a same way
- like in HTMLcollection you cant use a for each loop 
+nodeList , HTMLcollection , arrays are not the same they have some similar and some  diffrent values is their prototype and each cant be accessed everytime in a same waylike in HTMLcollection you cant use a for each loop , while you can use it in an array and a nodelist , in an array you can use a map while you cant in nodelist and HTMLcollection 
