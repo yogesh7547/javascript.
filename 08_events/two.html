@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>chai aur code</h1>
+    <button id="stop">stop</button>
+</body>
+
+<script>
+    const sayHitesh= function(){
+        console.log("hitesh")
+    }
+    setTimeout(sayHitesh,2000)
+
+    const changeText=function(){
+        document.querySelector("h1").innerHTML="best js course"
+    }
+    
+    const changeMe=setTimeout(changeText,3000)
+
+    document.querySelector("#stop").addEventListener('click',function(){
+        clearTimeout(changeMe)//If you change your mind and want to cancel that timer before it runs — use clearTimeout
+        console.log("stopped")
+    })
+</script>
+</html>
