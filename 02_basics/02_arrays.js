@@ -23,6 +23,10 @@ const real_another_arr=another_arr.flat(Infinity);//Returns a new array with all
 console.log(Array.isArray("hiteh"));
 console.log(Array.from("hiteh"))
 console.log(Array.from({name:"hiteh",age:23}))//intresting
+// Now, what is { name: "hiteh", age: 23 }?
+// It's a plain object.
+// It’s not iterable.
+// It’s not array-like (doesn’t have a length or numeric indexes).
 
 let score1=23;
 let score2=3;
