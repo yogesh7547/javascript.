@@ -5,9 +5,9 @@ let score ="33acd"
 //console.log(typeof (score));
 
 let valueInNumber= Number(score);
-//console.log(typeof valueInNumber);//now it says it has converted score into a number but it cannot since it has letters in it 
+ //console.log(typeof valueInNumber);//now it says it has converted score into a number but it cannot since it has letters in it 
 
-//console.log(valueInNumber);// it will give  NaN in terminal, that is Not a Number
+// console.log(valueInNumber);// it will give  NaN in terminal, that is Not a Number
 
 
 //"33"=>33
@@ -49,7 +49,7 @@ let str3= str1+str2;
 // console.log("1"+2);
 // console.log(1+"2");
 // console.log("1"+2+2);//if string is observed first from the left then  js converts every next number into string 
-// console.log(2+2+"1");//otherwise it performs the operation forst and then adds string to it 
+// console.log(2+2+"1");//otherwise it performs the operation first and then adds string to it 
 
 let num=10;
 console.log(num);

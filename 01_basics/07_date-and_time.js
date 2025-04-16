@@ -25,5 +25,5 @@ let myTimeStamp= Date.now()
 
 let newDate= new Date();
 console.log(newDate);
-console.log(newDate.getDay());
+console.log(newDate.getDay());//returns the day of the week in numbers , if its tuesday it will return 2
 console.log(newDate.getMonth()+1);

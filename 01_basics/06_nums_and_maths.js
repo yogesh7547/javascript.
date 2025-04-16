@@ -6,7 +6,7 @@
 
 // //methods
 // console.log(balance.toString().length);
-// console.log(balance.toFixed(1));
+// console.log(balance.toFixed(2));
 
 // const otherNumber= 123.894;
 // console.log(otherNumber.toPrecision(4));
@@ -28,7 +28,7 @@
 // console.log(Math.min(1,2,3,4,5));
 
 console.log(Math.random());// gives a value between 0 and 1
-console.log(Math.floor(Math.random()*10)+1);
+console.log(Math.floor(Math.random()*10)+1); //gives a number greater than 0 and less than equal to 10
 
 const max= 20;
 const min=10;

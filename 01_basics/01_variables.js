@@ -9,7 +9,7 @@ let accountState;
 accountEmail="coding@gmial.ccom";
 accountPassword="43217648"
 
-console.log(accountCity);
+// console.log(accountCity);
 
 console.table([accountId, accountPassword,,accountEmail, accountCity,accountState])
 //console.table to [print everthing at once in the form of table

@@ -1,12 +1,12 @@
 // datatypes
-//primitive(call by value)- String, Number, Boolean, undefined, null, symbol,BigInt
+//primitive(call by value=>(Function gets a copy))- String, Number, Boolean, undefined, null, symbol,BigInt
 
 // const id=Symbol('123');
 // const anotherId= Symbol('123');
 
 // console.log(id===anotherId);
 
-//reference(or non primtive)(call by reference)- Arrays, Objects, Functions
+//reference(or non primtive)(call by reference=>(Function gets a reference, so changes can affect original))- Arrays, Objects, Functions
 
 // const heroes=["thor","ironman","hulk"];
 

@@ -1,5 +1,10 @@
-// console.log("2">1);
+// console.log("2">1); //Since you’re using a relational operator (>), JavaScript will try to convert the string "2" to a number.
 // console.log(2>"1");
+
+
+// string comparison checks character-by-character from left to right:
+// console.log("2" > "10"); // true – because "2" comes after "1" in ASCII
+// console.log("12" > "2"); // false – because "1" is less than "2"
 
 // console.log(null>0); //false
 // console.log(null==0); //false
