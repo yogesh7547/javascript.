@@ -1,8 +1,8 @@
 if(true){
     let a=23
 const b=543
-var c=98 // can be accessed outside the if statement 
-d=22   // can be accessed outside the if statement 
+var c=98 // can be accessed outside the of statement 
+d=22   // can be accessed outside the of statement 
 }
 
 // console.log(a)  
@@ -43,7 +43,7 @@ if(true){
     const username="hitish"
     if(username==="hitish"){
         const website="youtube"
-        //console.log(username+website);
+        // console.log(username+website);
         }
         // console.log(website)
 }
@@ -55,11 +55,19 @@ if(true){
 addOne(5)
 function addOne(num){
     return num+1
-}
+}//This works! Because function declarations are hoisted — JavaScript moves the entire function to the top of the scope during the compilation phase.
+// So, even though you call addOne(5) before defining it, it works just fine.
 
 
-addTwo(5)//we can use the funtion before declaration in this type of declaration
+addTwo(5)//we cant use the funtion before declaration in this type of declaration
 const addTwo= function (num){
     return num+2
 }
+//const addTwo is hoisted, but its value (the function) is not.
+// So during the hoisting phase, addTwo exists in memory, but it’s undefined.
 
+
+//       Type             |        Hoisted?                  | Callable before declaration?
+// function foo() {}      | ✅ Yes                          | ✅ Yes
+// const foo = () => {}   | ✅ Partially (name hoisted)     | ❌ No
+// var foo = function(){} | ✅ Name hoisted, but undefined  | ❌ No

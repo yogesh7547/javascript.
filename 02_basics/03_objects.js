@@ -35,13 +35,25 @@ jsUser.email= "chatbot.gmail.com";
 
 jsUser.greetings=function(){
     console.log("hello js user") ;
+
 }
 
  jsUser.greetingTwo=function(){
-    console.log(`hello js user,${this.name}`);
+    console.log(`hello js user,${this.name}`); //this keyword refers to the context in which a function is called — essentially, it refers to the object that is executing the current function.
  }
 
  //console.log(jsUser.greetings);
  console.log(jsUser.greetings());
 
  console.log(jsUser.greetingTwo());
+
+ /* terminal */ 
+//  hello js user
+// undefined
+// hello js user,hitesh
+// undefined
+
+
+//  jsUser.greetings() runs → it logs "hello js user" to the console.
+// But it doesn't return anything (so by default, it returns undefined).
+// Then console.log(...) logs the returned value — which is undefined.

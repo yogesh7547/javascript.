@@ -1,16 +1,16 @@
 // const user ={
-//     // username:"hitesh",
-//     // price:900,
+//     username:"hitesh",
+//     price:900,
 
 //     WelcomeMessage:function(){
-//         //console.log(`${this.username}, welcome to website`)//this refers to the current context
-//         //  console.log(this);
+//         console.log(`${this.username}, welcome to website`)//this refers to the current context
+//          console.log(this);
 //     }
 
-//}
+// }
 
 // user.WelcomeMessage()
-// user.username="sam"//changed the current context
+// user.username="sam"
 // user.WelcomeMessage()
 
 // console.log(this) // gives empty object bcoz its the current context in the global scope
@@ -56,7 +56,7 @@
   //implicit return- when you dont need to use return keyword
 // const addTwo=(num1,num2)=>(num1+num2)// paranthesis m return keyword use krnme ki jarurat nahi h 
 
-const addTwo=(num1,num2)=>({username:"nitin"})
-console.log(addTwo(3,4)) 
+// const addTwo=(num1,num2)=>({username:"nitin"})
+// console.log(addTwo(3,4)) 
 
 
