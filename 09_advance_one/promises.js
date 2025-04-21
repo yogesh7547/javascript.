@@ -1,4 +1,5 @@
-const promiseOne= new Promise(function(resolve, reject){
+const promiseOne = new Promise(function(resolve, reject){
+
     //do an async taks
     //DB calls , cryptography, network
 
