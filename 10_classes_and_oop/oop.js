@@ -37,7 +37,7 @@ const userOne= new User("hitesh", 12, true);
 const userTwo=  new  User("chai and code ", 10, false);
 // console.log(userOne.constructor);
 console.log(userOne);
-console.log(userTwo)
+console.log(userTwo);
 
 //new keyword creates a new empty object called  instance to this so that the values of functions dont override each other
 //constructor function is called and packs up all the arguements in it and gives it to us 

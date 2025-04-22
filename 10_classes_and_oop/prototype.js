@@ -65,6 +65,7 @@ Teacher.__proto__=user
 
 
 //modern syntax
+// Object.setPrototypeOf(targetObject, prototypeObject);
 Object.setPrototypeOf(TeachingSupport,Teacher)
 
 
